@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="142e30a0-da27-4106-bcd2-a74825f2181f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/diy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/faker/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bundle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +126,11 @@
       <workItem from="1585028861038" duration="10000" />
       <workItem from="1585030079632" duration="111000" />
       <workItem from="1585030957374" duration="33000" />
-      <workItem from="1585036263039" duration="721000" />
+      <workItem from="1585036263039" duration="875000" />
+      <workItem from="1585041359865" duration="188000" />
+      <workItem from="1585041683360" duration="288000" />
+      <workItem from="1585042114156" duration="25000" />
+      <workItem from="1585062886988" duration="2501000" />
     </task>
     <servers />
   </component>
@@ -155,9 +162,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585030989118" />
-    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585030960352">
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585062892422">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585030960352" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1585062892422" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1585064692542">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1585064692542" />
   </component>
 </project>

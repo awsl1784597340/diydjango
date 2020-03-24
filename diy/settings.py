@@ -80,7 +80,8 @@ WSGI_APPLICATION = 'diy.wsgi.application'
 
 DATABASES = {
     'default': dict(ENGINE='django.db.backends.mysql', NAME='webpage', USER='root', PASSWORD='104365236GJLL',
-                    HOST='127.0.0.1', POST='3306')
+                    HOST='127.0.0.1', POST='3306'),
+    'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"}
 
 }
 

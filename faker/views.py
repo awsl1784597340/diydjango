@@ -22,6 +22,9 @@ def index(request):
 
 
 def post(request):
+    classrange = ['Saber', 'Archer', 'Lancer','Assassin', 'Rider', 'Caster','Ruler', 'MoonCancer', 'Avenger','Alterego',
+     'Foreigner', 'Berserker', 'Shielder']
+    genderrange=['male', 'female', 'unknown']
     object = {}
     object1 = {}
     if request.method == 'POST':
@@ -30,7 +33,16 @@ def post(request):
         object['classname'] = request.POST.get('class')
         object['nickname'] = request.POST.get('nickname')
         object['gender'] = request.POST.get('gender')
-        print(object['name'])
+
+        if object['classname'] not in classrange:
+            object['status'] = 2
+            print(object['status'])
+            return JsonResponse(object1)
+        if object['gender'] not in genderrange:
+            object['status'] = 2
+            print(object['status'])
+            return JsonResponse(object1)
+
         try:
             models.Servant.objects.create(No=object['No'], name=object['name'], classname=object['classname'],
                                           nickname=object['nickname'],gender=object['gender'])
